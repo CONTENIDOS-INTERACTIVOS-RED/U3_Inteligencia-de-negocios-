@@ -58,6 +58,15 @@ $custom-card-img-height: 322px
   &-1
     background-image: url("../assets/componentes/bg-1.svg") !important
     background-position: top
+  &-2
+    background-image: url("../assets/componentes/bg-2.png") !important
+    background-position: top
+  &-3
+    background-image: url("../assets/componentes/bg-3.png") !important
+    background-position: top
+  &-4
+    background-image: url("../assets/componentes/bg-4.png") !important
+    background-position: top
     
 .bg-full-width
   background-size: cover
@@ -71,6 +80,8 @@ $custom-card-img-height: 322px
 
 .bg-azul
   background-color: #D7E9F7
+.bg-azul-claro
+  background-color: #E8EEFD
 .bg-azul-1
   background-color: #3C97DA
 
@@ -80,8 +91,56 @@ $custom-card-img-height: 322px
 .bg-gris
   background-color: #F4F4F4
 
+.bg-naranja
+  background-color: #FE9D52 !important
+.bg-naranja-claro
+  background-color: #FEF4EC
+.bg-naranja-1
+  background-color: #FEE1CA
+
+.bg-morado
+  background-color: #EE70F7
+.bg-morado-1
+  background-color: #FAD3FC
+.bg-morado-claro
+  background-color: #FDEFFE
+
+
 .fs-16px
   font-size: 16px
 
+.rounded-15px
+  border-radius: 15px
+.rounded-15px-right
+  border-radius: 0 15px 15px 0
+
+.border-azul
+  border: 1px solid #3C97DA
+.border-morado
+  border: 1px solid #EE70F7
+.border-naranja
+  border: 1px solid #FE9D52
 .border-top-naranja-11px
   border-top: 11px solid #FE9D52
+.border-right-gris
+  border-right: 1px solid #D9D9D9
+
+.card_hover
+  .custom-image-card
+    transition: all 0.2s ease-in-out
+  .custom-image-card:hover
+    background-color: #205277
+    p
+      color: $white !important
+
+// ACORDEON
+.acordion__header
+  background-color: #FFF4C0!important
+  h4, i
+	  font-weight: 600 !important
+.acordion__contenido
+  background-color: #FFFBE8!important  
+.acordion__header--active
+  background-color: #FFDD33!important
+  h4, i
+    font-weight: bold

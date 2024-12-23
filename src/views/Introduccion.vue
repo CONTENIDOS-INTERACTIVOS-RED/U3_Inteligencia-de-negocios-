@@ -4,17 +4,20 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
 
     .row.mb-4
-      .col-12.col-xl-8(data-aos="fade-right")
-        .bg-amarillo.p-4.mb-4
-          span En esta unidad se analizarán las habilidades gerenciales esenciales para un directivo de empresas tecnológicas, enfocándose en el liderazgo adaptativo y en cómo afrontar los cambios rápidos que trae la transformación digital en el mundo de los negocios. Analizarán variables como datos, mercado y clientes para apoyar una toma de decisiones en tiempo real que impulse la rentabilidad del negocio. Además, al comprender el Management Digital, identificarás distintas tecnologías de la información clave para las actividades empresariales, incluyendo software de gestión, análisis de datos, computación en la nube y el Internet de las Cosas (IoT). Esto te permitirá evaluar los alcances y la preparación de un proyecto de Inteligencia de Negocios (BI). 
-        span Este desarrollo temático, le permitirá al estudiante acercarse a la comprensión de los conceptos y principios de la inteligencia de negocios y explicar su relevancia en el contexto empresarial actual.
-      .col-xl-4.d-none.d-xl-block(data-aos="fade-left")
+      .col-12.col-xl-7(data-aos="fade-right")
+        .bg-rosa.p-4.mb-4
+          span En esta unidad 3 se explora cómo la toma de decisiones basada en Inteligencia de Negocios (BI) es esencial para el éxito en un entorno empresarial impulsado por datos. La BI permite a las organizaciones recopilar, analizar y transformar grandes volúmenes de información en conocimiento práctico, optimizando procesos, identificando oportunidades y enfrentando desafíos de forma más estratégica.
+        span Asimismo, se analizarán los KPI (Indicadores Clave de Desempeño) y las métricas de negocio como herramientas clave para evaluar el rendimiento organizacional, las herramientas de soporte que facilitan decisiones informadas, y casos prácticos que evidencian el impacto positivo de la BI en diversas industrias. Como resultado, el estudiante diseñará estrategias basadas en inteligencia de negocios y evaluará su aplicación en la toma de decisiones.
+      .col-5.d-none.d-xl-block(data-aos="fade-left")
         img(src='@/assets/curso/unidad/img-1.png', alt='Texto que describa la imagen')
+
     .row.mb-4
       .d-flex.align-items-center
         div.d-flex.align-items-center.bg-azul.px-3.py-4
           img.me-4(style="width: 90px" src='@/assets/curso/unidad/img-2.svg', alt='Texto que describa la imagen')
-          p.pe-xl-5.mb-0 Esta es una gran oportunidad formativa que le permitirá desarrollar habilidades académicas y de aplicación tanto en ámbito tecnológico como en el mundo de los negocios. <strong>Bienvenidos.</strong>
+          p.pe-xl-5.mb-0 La unidad incluye tres subtemas: KPI y métricas de negocio, herramientas de soporte para decisiones, y estudios de caso en diferentes sectores. Se espera que el estudiante comprenda cómo aplicar la BI para transformar datos en decisiones <b>estratégicas y desarrollar competencias relevantes en su contexto profesional.</b>
+
+
 </template>
 
 <script>

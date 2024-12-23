@@ -1,235 +1,163 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'3. Ciclo de vida de un sistema de inteligencia de negocios'")
+  BannerInterno(:subTitulo="'3. Estudios de caso: Aplicación de la BI en diferentes industrias'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    .row.mb-5.mx-0
-      .d-none.d-xl-block.col-4.px-0(data-aos="fade-right")
-        img.h-100(src='@/assets/curso/unidad/img-38.png', alt='Texto que describa la imagen')
-      .col-12.col-xl-8.d-flex.align-items-center.bg-rosa.p-4(data-aos="fade-left")
-        p.mb-0(data-aos="fade-up") El ciclo de vida de un sistema de inteligencia de negocios incluye la identificación de necesidades, el diseño de la arquitectura, la integración de datos, la implementación de herramientas y la mejora continua. Estas etapas aseguran que el sistema responda a las necesidades actuales del negocio y evolucione para cumplir con futuras demandas.
+    .row.mb-4
+      .col-4.d-none.d-xl-block.mx-auto(data-aos="fade-left")
+        img(src='@/assets/curso/unidad/img-36.png', alt='Texto que describa la imagen')
 
-    #t_3_1.titulo-segundo
-      div.d-flex
-        span.me-3 3.1  
-        h2 Fase de planificación y definición de requisitos en un sistema de IN
+      .col-12.col-xl-8(data-aos="fade-right")
+        .d-flex.align-items-center
+          div.d-flex.align-items-center.bg-amarillo.px-3.py-4
+            img.me-4(style="width: 90px" src='@/assets/curso/unidad/img-37.svg', alt='Texto que describa la imagen')
+            p.pe-xl-5.mb-0 La Inteligencia de Negocios (BI) ha transformado radicalmente la industria de la salud, mejorando la gestión de recursos, la atención al paciente y las decisiones estratégicas. Herramientas como Tableau y Power BI permiten analizar datos clínicos en tiempo real, optimizando procesos como la ocupación de camas, la predicción de brotes de enfermedades y la asignación eficiente de recursos médicos.
 
-    p.mb-4 La fase de planificación y definición de requisitos es el primer y uno de los pasos más críticos en el ciclo de vida de un sistema de inteligencia de negocios (IN). Esta etapa establece el propósito, alcance y objetivos del sistema, asegurando que esté alineado con las metas estratégicas y operativas de la organización. Una planificación adecuada en esta fase maximiza el valor de los datos, optimiza los procesos de toma de decisiones y reduce los riesgos asociados al desarrollo e implementación del sistema.
-
-    .row.bg-amarillo.bg-full-width.py-4.mb-5
-      div.px-5.pb-md-3.py-4.d-flex
-        .col-12.col-xl-7.col-xxl-8.d-flex.pe-4.pe-xl-5.align-items-center.flex-column(data-aos="fade-right")
-          h2.mb-4.pb-2.me-auto Análisis de datos en inteligencia de negocios (IN): principales herramientas y beneficiosFase de planificación y definición de requisitos en un sistema de inteligencia de negocios (IN)
-          p.mb-5 En el documento Fase de planificación y definición de requisitos en un sistema de inteligencia de negocios (IN)  se describe el primer y más crítico paso en el ciclo de vida de estos sistemas. Se detalla cómo esta etapa establece el propósito, alcance y objetivos del sistema, garantizando su alineación con las metas estratégicas de la organización. Lo invitamos a consultar el documento para ampliar esta información y conocer cómo una planificación adecuada optimiza la toma de decisiones y minimiza riesgos.
-          a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexo_Fase de planificación y definición de requisitos en un sistema de inteligencia de negocios (IN) .pdf')" target="_blank")
-            img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
-            p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Fase de planificación y definición de requisitos en un sistema de inteligencia de negocios (IN)  
-             
-        .d-none.d-xl-block.col-xl-5.col-xxl-4.mx-auto.mt-4.mt-xl-0(data-aos="fade-left")
-          img.h-100(src='@/assets/curso/unidad/img-39.png', alt='Texto que describa la imagen')
-
-    #t_3_2.titulo-segundo
-      div.d-flex
-        span.me-3 3.2  
-        h2 Desarrollo e implementación del sistema de inteligencia de negocios (IN) 
-
-    p.mb-4 La fase de desarrollo e implementación de un sistema de inteligencia de negocios (IN) es crucial para garantizar que las organizaciones puedan procesar, analizar y visualizar datos de manera efectiva. En esta etapa se construyen los componentes necesarios, se integran los datos provenientes de diversas fuentes y se configuran las herramientas de análisis y visualización que permitirán la toma de decisiones estratégicas.
-
-    .row.position-relative.mb-4.py-4.bg-azul-1.bg-full-width
+    .row.position-relative.mb-5.py-4.bg-azul.bg-full-width
       div.px-4.px-md-5.py-md-3
         SlyderA(tipo="b").bg-white
           .row.p-4.px-md-5.py-lg-5.justify-content-between
             .col-md-12.col-lg-7.mb-4.mb-md-0(data-aos="zoom-in-right")
-              p.text-bold Infraestructura de datos
-              p Se construyen y organizan componentes como bodegas de datos (data warehouses), bases de datos y almacenes de datos para centralizar la información proveniente de sistemas transaccionales, archivos y aplicaciones externas. Esto asegura un almacenamiento eficiente y estructurado.
+              p.text-bold Kaiser Permanente
+              p Uso de BI para analizar grandes volúmenes de datos clínicos y administrativos, prediciendo brotes de enfermedades y asegurando una distribución óptima de recursos.
+            .d-none.d-lg-block.col-md-6.col-lg-4(data-aos="zoom-in-left")
+              figure
+                img(src='@/assets/curso/unidad/img-38.png', alt='Texto que describa la imagen')
+          .row.p-4.px-md-5.py-lg-5.justify-content-between
+            .col-md-12.col-lg-7.mb-4.mb-md-0(data-aos="zoom-in-right")
+              p.text-bold Optimización de recursos
+              p Análisis predictivo para prever picos de demanda, mejorando la planificación de personal y suministros durante temporadas críticas como la gripe.
+            .d-none.d-lg-block.col-md-6.col-lg-4(data-aos="zoom-in-left")
+              figure
+                img(src='@/assets/curso/unidad/img-39.png', alt='Texto que describa la imagen')
+          .row.p-4.px-md-5.py-lg-5.justify-content-between
+            .col-md-12.col-lg-7.mb-4.mb-md-0(data-aos="zoom-in-right")
+              p.text-bold Experiencia del paciente
+              p Identificación de patrones históricos para personalizar tratamientos y reducir tiempos de espera, incrementando la satisfacción y calidad del servicio.
             .d-none.d-lg-block.col-md-6.col-lg-4(data-aos="zoom-in-left")
               figure
                 img(src='@/assets/curso/unidad/img-40.png', alt='Texto que describa la imagen')
           .row.p-4.px-md-5.py-lg-5.justify-content-between
-            .col-md-12.col-lg-7.mb-4.mb-md-0
-              p.text-bold ETL (Extracción, Transformación y Carga)
-              p Proceso fundamental para la recolección de datos de diversas fuentes, su limpieza y transformación en un formato adecuado, y su posterior carga en la infraestructura central. Herramientas como Talend y Apache Nifi son ampliamente utilizadas.
-            .d-none.d-lg-block.col-md-6.col-lg-4
+            .col-md-12.col-lg-7.mb-4.mb-md-0(data-aos="zoom-in-right")
+              p.text-bold Investigación médica
+              p BI en ensayos clínicos para evaluar tratamientos, personalizando terapias en oncología según el perfil genético del paciente.
+            .d-none.d-lg-block.col-md-6.col-lg-4(data-aos="zoom-in-left")
               figure
                 img(src='@/assets/curso/unidad/img-41.png', alt='Texto que describa la imagen')
-          .row.p-4.px-md-5.py-lg-5.justify-content-between
-            .col-md-12.col-lg-7.mb-4.mb-md-0
-              p.text-bold ETL (Extracción, Transformación y Carga)
-              p Proceso fundamental para la recolección de datos de diversas fuentes, su limpieza y transformación en un formato adecuado, y su posterior carga en la infraestructura central. Herramientas como Talend y Apache Nifi son ampliamente utilizadas.
-            .d-none.d-lg-block.col-md-6.col-lg-4
-              figure
-                img(src='@/assets/curso/unidad/img-42.png', alt='Texto que describa la imagen')
-          .row.p-4.px-md-5.py-lg-5.justify-content-between
-            .col-md-12.col-lg-7.mb-4.mb-md-0
-              p.text-bold Plataformas de análisis y visualización
-              p Herramientas como Power BI, Tableau y Qlik se configuran para crear dashboards interactivos, gráficos y reportes comprensibles para los usuarios finales, facilitando la interpretación de los datos.
-            .d-none.d-lg-block.col-md-6.col-lg-4
-              figure
-                img(src='@/assets/curso/unidad/img-43.png', alt='Texto que describa la imagen')
-          .row.p-4.px-md-5.py-lg-5.justify-content-between
-            .col-md-12.col-lg-7.mb-4.mb-md-0
-              p.text-bold Integración con sistemas existentes
-              p El sistema de IN se conecta con sistemas previos como CRM, ERP y bases de datos operativas, creando un flujo continuo de datos que permite análisis en tiempo real y consistencia en la información utilizada.
-            .d-none.d-lg-block.col-md-6.col-lg-4
-              figure
-                img(src='@/assets/curso/unidad/img-44.png', alt='Texto que describa la imagen')
-          .row.p-4.px-md-5.py-lg-5.justify-content-between
-            .col-md-12.col-lg-7.mb-4.mb-md-0
-              p.text-bold Calidad de los datos 
-              p Se asegura que los datos cargados en el sistema sean correctos, completos, consistentes y oportunos. Esto incluye procesos de limpieza, validación y monitoreo para garantizar la confiabilidad de los insights generados.
-            .d-none.d-lg-block.col-md-6.col-lg-4
-              figure
-                img(src='@/assets/curso/unidad/img-44.png', alt='Texto que describa la imagen')
+    h2 Sistemas de Soporte de Decisiones (DSS) y Sistemas de Información Ejecutiva (EIS)
 
-    .row.position-relative.mb-0.py-4.bg-fondo-1.bg-full-width
-      div.px-4.px-md-5.py-md-3
+    p.mb-4 Los DSS y EIS son pilares fundamentales en la Inteligencia de Negocios, ofreciendo soporte operativo y estratégico respectivamente.
+    p.mb-4 <b>Tabla 1.</b> Características DSS y EIS          
 
-        h2 Ejemplos de aplicación
-        p.mb-0 A continuación, se presentan casos destacados donde los sistemas de inteligencia de negocios han sido implementados con éxito en diferentes sectores:
-    
-        .row.mb-0
-          .col-10.col-md-6.col-lg-4.mb-4.mx-auto(data-aos="fade-right")
-            div.custom-image-card.rounded-8px
-              img.mb-4(src='@/assets/curso/unidad/img-45.png', alt='Texto que describa la imagen')
-              div.mb-4
-                p.text-bold.text-center Sector financiero
-                p.text-small.px-4.text-center.pb-2 Bancos como JP Morgan utilizan sistemas de inteligencia de negocios para analizar transacciones, predecir comportamientos de clientes y detectar patrones de fraude.
-          .col-10.col-md-6.col-lg-4.mb-4.mx-auto(data-aos="fade-up")
-            div.custom-image-card.rounded-8px
-              img.mb-4(src='@/assets/curso/unidad/img-46.png', alt='Texto que describa la imagen')
-              div.mb-4
-                p.text-bold.text-center Retail
-                p.text-small.px-4.text-center.pb-2 Walmart integra datos de ventas, inventarios y proveedores para optimizar su cadena de suministro y predecir demandas de productos.
-          .col-10.col-md-6.col-lg-4.mb-4.mx-auto(data-aos="fade-left")
-            div.custom-image-card.rounded-8px
-              img.mb-4(src='@/assets/curso/unidad/img-47.png', alt='Texto que describa la imagen')
-              div.mb-4
-                p.text-bold.text-center Salud
-                p.text-small.px-4.text-center.pb-2 Clínicas y hospitales analizan datos médicos para gestionar recursos, detectar enfermedades en etapas tempranas y mejorar la atención al paciente.
+    .tabla-a.mb-5
+      table
+        thead
+          tr
+            th(width="25%").bg-naranja Aspecto
+            th.bg-naranja.text-center DSS
+            th.bg-naranja.text-center EIS
+        tbody
+          tr
+            td.text-bold.border-right-gris Definición
+            td.border-right-gris Sistema interactivo para resolver problemas semi-estructurados mediante datos, modelos y experiencia del usuario.
+            td Herramienta para monitorear el desempeño organizacional con indicadores clave en tiempo real.
+          tr
+            td.text-bold.border-right-gris Componentes clave
+            td.border-right-gris Base de datos, modelos de decisión, interfaz de usuario y módulos de soporte.
+            td Almacén de datos, interfaz gráfica, módulos analíticos y acceso a datos externos.
+          tr
+            td.text-bold.border-right-gris Aplicaciones
+            td.border-right-gris Evaluación de escenarios "¿qué pasaría si?", optimización de cadenas de suministro, planificación estratégica.
+            td Monitoreo de KPI, alineación de estrategias y análisis predictivo para riesgos y oportunidades.
+          tr
+            td.text-bold.border-right-gris Casos destacados
+            td.border-right-gris Walmart: optimización de inventarios mediante análisis de patrones de compra.
+            td Coca-Cola: rastreo de métricas clave de marketing y ventas mediante paneles interactivos.
+          tr
+            td.text-bold.border-right-gris Herramientas
+            td.border-right-gris SAP BusinessObjects, IBM Cognos Analytics.
+            td Tableau, Microsoft Power BI.
+          
+    h2 Ciberseguridad en la inteligencia de negocios
+    .row.mb-4 
+      .col-12.col-xl-7(data-aos="fade-right")
+        .bg-azul.p-4
+          span La ciberseguridad en la inteligencia de negocios protege los datos y procesos clave para la toma de decisiones. Al analizar grandes volúmenes de información sensible, BI enfrenta riesgos como filtraciones, ataques de ransomware y accesos no autorizados. Implementar estrategias de protección es esencial para garantizar la integridad y confidencialidad de los datos.
+      .d-none.d-xl-block.col-5.px-0(data-aos="fade-left")
+        img(src='@/assets/curso/unidad/img-42.png', alt='Texto que describa la imagen')
 
-    h2 Beneficios
-    p.mb-4 Estos son los principales beneficios que las organizaciones pueden obtener al implementar sistemas de inteligencia de negocios:
+    .bg-amarillo.bg-full-width.mb-4
+      .px-5.pb-md-3.py-4
+        .row.mb-4
+          .col-4.mx-auto.d-none.d-xl-block(data-aos="fade-right")
+            img(src='@/assets/curso/unidad/img-43.png', alt='Texto que describa la imagen')
+          .col-10.col-md-8.col-lg-6.mx-auto.d-flex(data-aos="fade-left")
+            TarjetaAudio.color-primario.bg-white.my-auto(
+              texto="Proceso de descarga de MySQL Server Community y MySQL Workbench"
+              tiempo
+              :audio="require('../../assets/componentes/audios/audio-ej.mp3')"
+              @audio-hover="mostrarIndicadorTarjetaAudio = false"
+            )
+
+    p.text-bold.mb-4 Ejemplos empresariales de vulnerabilidad:
+    .row.mb-4.justify-content-center
+      .col-10.col-md-8.col-lg-6.mb-4.mb-xl-0
+        .custom-image-card.d-flex.p-3
+          img.pe-2(src='@/assets/curso/unidad/img-44.svg', style="width: 80px")
+          .d-flex.flex-column
+            p.text-bold.mb-4 Facebook (Cambridge Analytica)
+            p.px-1.text-small.mb-0.d-flex Exposición de datos de usuarios por falta de controles adecuados
+      .col-10.col-md-8.col-lg-6.mb-4.mb-xl-0
+        .custom-image-card.d-flex.p-3
+          img.pe-2(src='@/assets/curso/unidad/img-45.svg', style="width: 80px")
+          .d-flex.flex-column
+            p.text-bold.mb-4 Equifax
+            p.px-1.text-small.mb-0.d-flex Brecha de datos que comprometió información de 140 millones de usuarios.
+
+    p.mb-4.text-bold Recomendaciones clave:
+    .row.mb-3(data-aos="fade-up")
+      .col-8.col-md-4.mx-auto
+        .bg-naranja.p-4.text-center.rounded-15px(style="position: relative; z-index: 1")
+          span.text-bold Auditorías periódicas para revisar medidas de seguridad.
+      .col-8.col-md-4.mx-auto
+        .bg-morado.p-4.text-center.rounded-15px(style="position: relative; z-index: 1")
+          span.text-bold Capacitación al personal en buenas prácticas de ciberseguridad.
+      .col-8.col-md-4.mx-auto
+        .bg-azul-1.p-4.text-center.rounded-15px(style="position: relative; z-index: 1")
+          span.text-bold Actualización constante de sistemas BI para evitar vulnerabilidades conocidas.
+
+    h2 Blockchain en la BI
+    p.mb-4 El blockchain garantiza la seguridad y trazabilidad de los datos en la Inteligencia de Negocios, proporcionando confianza y transparencia.
     .row.mb-4
+      .col-4.d-none.d-xl-block.mx-auto(data-aos="fade-left")
+        img(src='@/assets/curso/unidad/img-46.png', alt='Texto que describa la imagen')
       .col-12.col-xl-8(data-aos="fade-right")
-        lineaTiempoD.large
-          p(numero="1" titulo="Mejora en la toma de decisiones") Proporciona acceso a datos procesados y analizados para tomar decisiones informadas basadas en hechos.
-          p(numero="2" titulo="Optimización de recursos") Identifica áreas ineficientes, mejora la productividad y reduce costos operativos mediante análisis de datos históricos.
-          p(numero="3" titulo="Competitividad") Facilita la adaptación rápida a cambios del mercado y otorga una ventaja competitiva.
-          p(numero="4" titulo="Visibilidad en tiempo real") Ofrece a los directivos una visión clara del rendimiento operativo a través de dashboards y reportes interactivos.
-      .col-4.d-none.d-xl-block(data-aos="fade-left")
-        img.h-100(src='@/assets/curso/unidad/img-48.png', alt='Texto que describa la imagen')
+        LineaTiempoD.color-secundario.large
+          p(numero="1" titulo="Cadenas de suministro") Rastreabilidad de productos desde el origen al destino final, garantizando autenticidad y optimización operativa. 
+          p(numero="2" titulo="Registros médicos")  Almacenamiento seguro e inmutable de historiales clínicos accesibles solo para partes autorizadas.
+          p(numero="3" titulo="Contratos inteligentes") Automatización de procesos como pagos y gestión de inventarios, reduciendo costos y tiempos.  
 
-    .row.position-relative.mb-5.py-4.bg-fondo-1.bg-full-width
-      div.px-4.px-md-5.py-md-3
+    .row.mb-5
+      .d-flex.align-items-center
+        div.d-flex.align-items-center.bg-rosa.px-3.py-4
+          img.me-4(style="width: 90px" src='@/assets/curso/unidad/img-47.svg', alt='Texto que describa la imagen')
+          p.pe-xl-5.mb-0 El blockchain se convierte en una herramienta crucial para mantener la integridad de los datos en sectores como salud, finanzas y logística, reforzando la confianza y sostenibilidad en un entorno digital competitivo.
 
-        h2 
-        p.mb-5
-        .row.mb-5.justify-content-center 
-          .col-10.col-md-8.col-lg-6.col-xl-4.col-xxl-3.mb-4.mb-xl-0
-            .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100(data-aos="fade-right")
-              img.mx-auto.mb-4(src='@/assets/curso/unidad/img-49.svg', style="width: 80px")
-              p.text-bold.mb-4.text-center Infraestructura tecnológica
-              p.px-1.text-small.mb-0.d-flex.text-center Adquisición o alquiler de hardware y software necesarios para alojar y procesar datos.
-          .col-10.col-md-8.col-lg-6.col-xl-4.col-xxl-3.mb-4.mb-xl-0
-            .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100(data-aos="fade-up")
-              img.mx-auto.mb-4(src='@/assets/curso/unidad/img-50.svg', style="width: 80px")
-              p.text-bold.mb-4.text-center Licencias de software
-              p.px-1.text-small.mb-0.d-flex.text-center Herramientas como Power BI o Tableau tienen costos anuales basados en el tamaño de la empresa y el número de usuarios.
-          .col-10.col-md-8.col-lg-6.col-xl-4.col-xxl-3.mb-4.mb-xl-0
-            .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100(data-aos="fade-up")
-              img.mx-auto.mb-4(src='@/assets/curso/unidad/img-51.svg', style="width: 80px")
-              p.text-bold.mb-4.text-center Consultoría y desarrollo
-              p.px-1.text-small.mb-0.d-flex.text-center Contratar expertos para personalizar e implementar el sistema puede generar costos adicionales.
-          .col-10.col-md-8.col-lg-6.col-xl-4.col-xxl-3.mb-4.mb-xl-0
-            .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100(data-aos="fade-left")
-              img.mx-auto.mb-4(src='@/assets/curso/unidad/img-52.svg', style="width: 80px")
-              p.text-bold.mb-4.text-center Mantenimiento <br> y actualizaciones
-              p.px-1.text-small.mb-0.d-flex.text-center Costos recurrentes para mantener el sistema actualizado y eficiente.
 
-    h2 Capacitación del personal
-    p.mb-4 La formación de los equipos involucrados es crucial para garantizar el uso adecuado del sistema y maximizar sus beneficios:
-
-    ImagenInfografica.color-secundario.mb-5
-      template(v-slot:imagen)
-        figure
-          img(src='@/assets/curso/unidad/img-53.png', alt='Texto que describa la imagen')
-
-      .tarjeta.bg-white.p-4(x="40.4%" y="51%" numero="+")
-        .h5.mb-2 Seguridad
-        p Capacitación en la protección de datos sensibles y en garantizar la integridad de la información.
-      .tarjeta.bg-white.p-4(x="48.3%" y="35%" numero="+")
-        .h5.mb-2 Capacitación técnica
-        p Administradores y desarrolladores aprenden a manejar infraestructura, herramientas ETL y bases de datos.
-      .tarjeta.bg-white.p-4(x="56.2%" y="51%" numero="+")
-        .h5.mb-2 Herramientas de análisis
-        p Analistas de negocio son formados en el uso de plataformas como Power BI o Tableau para crear reportes y dashboards.
-      .tarjeta.bg-white.p-4(x="48.3%" y="64.4%" numero="+")
-        .h5.mb-2 Calidad de los datos
-        p Los equipos reciben formación para asegurar la precisión y confiabilidad de los datos procesados.
-
-    .row.mb-5.mx-0
-      .d-none.d-xl-block.col-4.px-0(data-aos="fade-right")
-        img.h-100(src='@/assets/curso/unidad/img-54.png', alt='Texto que describa la imagen')
-      .col-12.col-xl-8.d-flex.align-items-center.bg-rosa.p-4(data-aos="fade-left")
-        p.mb-0(data-aos="fade-up") El desarrollo e implementación de un sistema de inteligencia de negocios implica construir una infraestructura sólida, integrar datos de múltiples fuentes y configurar herramientas que permitan la visualización y análisis de datos. Aunque existen costos asociados, los beneficios en términos de productividad, competitividad y toma de decisiones informadas son indispensables para mantener una posición destacada en el mercado. La capacitación del personal es clave para maximizar el uso del sistema y garantizar su éxito a largo plazo.
-    
-    #t_3_3.titulo-segundo
-      div.d-flex
-        span.me-3 3.3  
-        h2 Mantenimiento y evolución del sistema de inteligencia de negocios (IN)
-
-    p.mb-4 El mantenimiento y evolución de un sistema de inteligencia de negocios (IN) es una fase crítica para asegurar su funcionalidad continua y su alineación con las necesidades organizacionales. Dado que los entornos empresariales, los datos y las tecnologías cambian constantemente, es imprescindible que el sistema de IN se adapte y evolucione para seguir siendo útil y relevante. Esta etapa incluye actividades de monitoreo, actualizaciones, ajustes de algoritmos y mejoras en la seguridad de los datos, así como capacitación para el personal involucrado. 
-
-    .row.position-relative.mb-0.py-4.bg-azul-1.bg-full-width
-      div.px-4.px-md-5.py-md-3
-        SlyderA(tipo="b").bg-white
-          .row.p-4.px-md-5.py-lg-5.justify-content-between
-            .col-md-12.col-lg-7.mb-4.mb-md-0(data-aos="zoom-in-right")
-              p.text-bold Monitoreo continuo
-              p Consiste en el seguimiento constante del rendimiento del sistema, verificando la correcta operación de las fuentes de datos, los procesos ETL y las herramientas de análisis. Permite identificar problemas y solucionarlos de manera oportuna.
-            .d-none.d-lg-block.col-md-6.col-lg-4(data-aos="zoom-in-left")
-              figure
-                img(src='@/assets/curso/unidad/img-55.png', alt='Texto que describa la imagen')
-          .row.p-4.px-md-5.py-lg-5.justify-content-between
-            .col-md-12.col-lg-7.mb-4.mb-md-0(data-aos="zoom-in-right")
-              p.text-bold Actualización de herramientas
-              p Las herramientas de análisis y visualización (Power BI, Tableau, Qlik, etc.) deben ser actualizadas regularmente para incorporar mejoras de rendimiento, nuevas funcionalidades y actualizaciones de seguridad.
-            .d-none.d-lg-block.col-md-6.col-lg-4(data-aos="zoom-in-left")
-              figure
-                img(src='@/assets/curso/unidad/img-56.png', alt='Texto que describa la imagen')
-          .row.p-4.px-md-5.py-lg-5.justify-content-between
-            .col-md-12.col-lg-7.mb-4.mb-md-0(data-aos="zoom-in-right")
-              p.text-bold Ajuste de algoritmos
-              p Los algoritmos de análisis y predicción se ajustan a medida que cambian los datos y los patrones de negocio, garantizando la precisión y relevancia de los insights.
-            .d-none.d-lg-block.col-md-6.col-lg-4(data-aos="zoom-in-left")
-              figure
-                img(src='@/assets/curso/unidad/img-57.png', alt='Texto que describa la imagen')
-          .row.p-4.px-md-5.py-lg-5.justify-content-between
-            .col-md-12.col-lg-7.mb-4.mb-md-0(data-aos="zoom-in-right")
-              p.text-bold Mejora de la seguridad
-              p La seguridad de los datos es prioritaria. Las actualizaciones incluyen la implementación de mejores prácticas de cifrado, protección contra amenazas cibernéticas y cumplimiento con normativas legales.
-            .d-none.d-lg-block.col-md-6.col-lg-4(data-aos="zoom-in-left")
-              figure
-                img(src='@/assets/curso/unidad/img-58.png', alt='Texto que describa la imagen')
-          .row.p-4.px-md-5.py-lg-5.justify-content-between
-            .col-md-12.col-lg-7.mb-4.mb-md-0(data-aos="zoom-in-right")
-              p.text-bold Adaptación a cambios organizacionales
-              p Si la estructura del negocio evoluciona (nuevos procesos, fusiones, expansiones), el sistema de IN debe ajustarse para reflejar y soportar estos cambios, integrando nuevas fuentes de datos y ajustando los procesos existentes.
-            .d-none.d-lg-block.col-md-6.col-lg-4(data-aos="zoom-in-left")
-              figure
-                img(src='@/assets/curso/unidad/img-59.png', alt='Texto que describa la imagen')
-
-    .row.bg-amarillo.bg-full-width.py-4.mb-5.border-top-naranja-11px
-      div.px-5.pb-md-3.py-4.d-flex
-        .col-12.col-xl-7.col-xxl-8.d-flex.pe-4.pe-xl-5.align-items-center.flex-column(data-aos="fade-right")
-          h2.mb-4.pb-2.me-auto Ejemplos, beneficios, costos y capacitación del sistema de inteligencia de negocios (IN)
-          p.mb-5 En el documento Ejemplos, beneficios, costos y capacitación del sistema de inteligencia de negocios (IN)  se abordan aspectos esenciales que permiten comprender y aprovechar al máximo estas herramientas tecnológicas. Se destacan casos prácticos de aplicación, los beneficios que aportan a las organizaciones, los costos asociados a su implementación y la importancia de la capacitación para garantizar su efectividad. Lo invitamos a consultar el documento para ampliar esta información y descubrir cómo la Inteligencia de Negocios puede transformar la gestión empresarial.
-          a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexo_Ejemplos, beneficios, costos y capacitación del sistema de inteligencia de negocios (IN).pdf')" target="_blank")
-            img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
-            p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Ejemplos, beneficios, costos y capacitación del sistema de inteligencia de negocios (IN)  
-             
-        .d-none.d-xl-block.col-xl-5.col-xxl-4.mx-auto.mt-4.mt-xl-0(data-aos="fade-left")
-          img.h-100(src='@/assets/curso/unidad/img-60.png', alt='Texto que describa la imagen')
+    .bg-full-width.border-top-9-azul
+      .px-4.px-md-5.pt-5.pb-0
+        h2 Material complementario
+        .row
+          .col-12.col-md-6.col-lg-8
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/111431") Arroyo Guardeño, D., Díaz Vico, J. & Hernández Encinas, L. (2019). Blockchain. Editorial CSIC.
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/podcast-icon.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://open.spotify.com/show/4XymlIUA6iFaW6IUMjYfGK") Riso, R. (2020). Ciberseguridad sin censura [Podcast]
+          .col-12.col-md-6.col-lg-3
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='Imagen de material complementario')
 
 
 </template>

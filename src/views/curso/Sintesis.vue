@@ -2,7 +2,7 @@
 .curso-main-container.creditos-vista
   BannerInterno(subTitulo="SÍNTESIS")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-4.mb-md-5 En esta unidad se explorarán los conceptos clave de la inteligencia de negocios, incluyendo plataformas, herramientas y el ciclo de vida de sus sistemas. Temas como big data, Power BI  y empresas desarrolladoras permitirán al estudiante comprender el ecosistema de la inteligencia de negocios en el contexto empresarial actual. Se invita a realizar un estudio consciente y responsable, utilizando herramientas digitales y recursos de apoyo para profundizar en los contenidos.
+    p.mb-4.mb-md-5 La unidad con respecto a la toma de decisiones basada en Inteligencia de Negocios aborda cómo las organizaciones pueden utilizar herramientas y estrategias basadas en datos para optimizar sus procesos y mejorar su desempeño. En esta unidad, se exploran tres aspectos clave: los Indicadores Clave de Desempeño (KPI) y métricas de negocio, que permiten medir y evaluar el éxito de las operaciones empresariales; las herramientas de soporte a la toma de decisiones, que transforman datos en información útil para la planificación estratégica; y los estudios de caso, que muestran aplicaciones prácticas de la Inteligencia de Negocios en diferentes industrias.
     figure
       img(src='@/assets/componentes/sintesis.png', alt='Texto que describa la imagen')
     

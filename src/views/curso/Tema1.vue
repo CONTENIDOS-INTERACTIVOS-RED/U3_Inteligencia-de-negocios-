@@ -1,129 +1,244 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'1. Concepto y evolución de la inteligencia de negocios '")
+  BannerInterno(:subTitulo="'1. KPI (Key Performance Indicators) y métricas de negocio '")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
 
-    .row.mb-5.mx-0
+    .row.mb-4.mx-0
       .col-12.col-xl-8.d-flex.align-items-center.bg-amarillo.p-4(data-aos="fade-right")
-        p.mb-0(data-aos="fade-up") La inteligencia de negocios o Business Intelligence (BI) ha recorrido un largo camino desde sus inicios, cuando las empresas dependían de métodos manuales para el análisis de datos, hasta convertirse en una disciplina sofisticada que integra tecnologías avanzadas para la toma de decisiones estratégicas. Su evolución refleja cómo los avances tecnológicos han transformado la forma en que las organizaciones gestionan y aprovechan su información. A continuación, se detalla las principales etapas de desarrollo de la inteligencia de negocios, destacando los momentos clave y las herramientas que marcaron cada periodo.
+        p.mb-0(data-aos="fade-up") Los KPI y las métricas de negocio son herramientas esenciales para medir el desempeño organizacional. Desde su conceptualización, han sido fundamentales en los sistemas de gestión empresarial. Kaplan y Norton (1996), con su modelo Balanced Scorecard, destacaron la importancia de estos indicadores para evaluar el progreso hacia los objetivos estratégicos.
       .d-none.d-xl-block.col-4.px-0(data-aos="fade-left")
         img.h-100(src='@/assets/curso/unidad/img-3.png', alt='Texto que describa la imagen')
-    
-    .row.mb-5
-      .col-10.mx-auto
-        LineaTiempoD.fs-16px
-          p(numero="1950" titulo="Antes de 1950").d-flex(data-aos="fade-up")
-            img(src='@/assets/curso/unidad/img-4.png', alt='Texto que describa la imagen')
-            span.px-4 Antes de la invención de la inteligencia de negocios moderna, las empresas dependían de informes financieros y análisis manuales de datos. El análisis se realizaba a través de métodos tradicionales, como la contabilidad financiera y la generación de informes escritos a mano. Este trabajo era llevado a cabo por contadores y analistas que utilizaban herramientas rudimentarias como papel y lápiz. El enfoque estaba en el análisis de datos históricos, sin predicciones ni análisis en tiempo real, limitándose a métricas financieras tradicionales como ventas, ingresos y costos.
-          p(numero="1950" titulo="1950-1960").d-flex(data-aos="fade-up")
-            img(src='@/assets/curso/unidad/img-5.png', alt='Texto que describa la imagen')
-            span.px-4 Con la llegada de las primeras computadoras, las empresas comenzaron a automatizar ciertos procesos de análisis de datos. Se introdujeron los primeros sistemas de procesamiento de datos para gestionar grandes volúmenes de información financiera. Aunque las herramientas disponibles no eran sofisticadas ni permitían análisis complejos, marcaron el inicio de un cambio en la forma de abordar la gestión de datos. Durante este período, las bases de la inteligencia de negocios moderna comenzaron a establecerse.  
-          p(numero="1960" titulo="1960-1970").d-flex(data-aos="fade-up")  
-            img(src='@/assets/curso/unidad/img-6.png', alt='Texto que describa la imagen')
-            span.px-4 En esta época surgieron avances importantes en la gestión de datos. Se introdujeron las primeras bases de datos, especialmente en sectores como el bancario, para almacenar grandes volúmenes de datos transaccionales. Además, el uso de mainframes permitió procesar datos de manera más rápida en comparación con los métodos tradicionales. A pesar de estos avances, la capacidad de análisis seguía siendo limitada, enfocada principalmente en la gestión de información básica.
-          p(numero="1970" titulo="1970-1980 (DSS)").d-flex(data-aos="fade-up") 
-            img(src='@/assets/curso/unidad/img-7.png', alt='Texto que describa la imagen')
-            span.px-4 Se desarrollaron los Sistemas de Soporte a la Decisión (DSS, por sus siglas en inglés), que ofrecieron a las empresas herramientas computacionales para analizar datos y tomar decisiones informadas. Estos sistemas permitían simulaciones y escenarios hipotéticos. También surgió la primera generación de software analítico, como el Decision Support System de IBM, que facilitaba el análisis de datos en tiempo real, aunque con alcance limitado.
-          p(numero="1980" titulo="1980-1990 (Business Intelligence)").d-flex(data-aos="fade-up")
-            img(src='@/assets/curso/unidad/img-8.png', alt='Texto que describa la imagen')
-            span.px-4 En 1989, el término Business Intelligence (BI) fue acuñado por Howard Dresner. Surgieron conceptos como el data warehousing, que consolidaba grandes volúmenes de datos de diversas fuentes en almacenes centralizados, y las herramientas de OLAP (Online Analytical Processing), que permitieron análisis rápidos y multidimensionales. Además, aparecieron las primeras plataformas de BI, como Cognos y MicroStrategy, que ofrecían capacidades avanzadas para informes y análisis.
-          p(numero="1990" titulo="1990-2000").d-flex(data-aos="fade-up")
-            img(src='@/assets/curso/unidad/img-9.png', alt='Texto que describa la imagen')
-            span.px-4 El BI se consolidó como herramienta esencial en la toma de decisiones empresariales. Las empresas adoptaron plataformas corporativas que integraban análisis históricos, en tiempo real y predicciones de tendencias. La minería de datos (data mining) y el análisis predictivo emergieron como elementos clave para descubrir patrones ocultos y anticipar comportamientos futuros. Herramientas como BusinessObjects, SAP BW y Oracle BI ofrecieron soluciones de análisis avanzadas y accesibles.
-          p(numero="2000" titulo="2000-2010 (Big Data y BI moderno)").d-flex(data-aos="fade-up") 
-            img(src='@/assets/curso/unidad/img-10.png', alt='Texto que describa la imagen')
-            span.px-4 La llegada del Big Data revolucionó la inteligencia de negocios, permitiendo procesar y analizar grandes volúmenes de datos provenientes de diversas fuentes, como redes sociales y dispositivos IoT, con tecnologías como Hadoop y Spark. La computación en la nube (cloud computing) facilitó el almacenamiento y procesamiento de datos sin necesidad de infraestructuras costosas. Además, herramientas de visualización como Tableau y Power BI hicieron más accesible el análisis en tiempo real para usuarios no técnicos.
 
-    h2 Inteligencia Artificial, Machine Learning y la Inteligencia de Negocios del futuro (2010-Presente)
-    p.mb-5 La evolución de la Inteligencia de Negocios (BI) en la última década ha estado profundamente influenciada por la integración de tecnologías avanzadas como la Inteligencia Artificial (IA) y el Machine Learning (ML). Este desarrollo ha transformado las capacidades de BI, llevándola más allá de los informes tradicionales hacia un enfoque más dinámico y automatizado para la toma de decisiones. Los avances más destacados de este periodo incluyen:
+    .bg-fondo-2.bg-full-width
+      .px-5.pb-md-3.py-4
 
-    .row.mb-4
-      .col-4.d-none.d-xl-block(data-aos="fade-right")
-        img(src='@/assets/curso/unidad/img-11.png', alt='Texto que describa la imagen')
-      .col-12.col-xl-8(data-aos="fade-left")
-        lineaTiempoD.large
-          p(numero="1" titulo="Integración con IA y ML")(data-aos="fade-up") Las plataformas de BI ahora incluyen capacidades de machine learning, permitiendo predicciones más precisas y recomendaciones automatizadas basadas en el análisis de patrones de datos.
-          p(numero="2" titulo="Automatización de la toma de decisiones")(data-aos="fade-up") Herramientas avanzadas de BI están automatizando decisiones basadas en patrones aprendidos, mejorando la eficiencia empresarial y reduciendo el error humano en procesos críticos.
-          p(numero="3" titulo="BI móvil")(data-aos="fade-up") La accesibilidad desde dispositivos móviles permite a los usuarios tomar decisiones en tiempo real y desde cualquier ubicación, favoreciendo la agilidad empresarial.
-          p(numero="4" titulo="BI como servicio (BIaaS)")(data-aos="fade-up") Los modelos basados en la nube han democratizado el acceso a potentes herramientas de análisis, eliminando la necesidad de infraestructuras internas costosas y complejas.
-          
-    p.mb-5 La evolución de BI desde sistemas manuales hasta la integración con IA y Big Data ha revolucionado la gestión empresarial. Hoy en día, la inteligencia de negocios es un pilar fundamental para decisiones estratégicas, operativas y tácticas, y su desarrollo continuará impulsado por tecnologías emergentes.
+        #t_1_1.titulo-segundo
+          div.d-flex
+            span.me-3 1.1  
+            h2 Antecedentes y trazabilidad histórica
 
-    #t_1_1.titulo-segundo
-      div.d-flex
-        span.me-3 1.1  
-        h2 Fundamentos de la Inteligencia de Negocios (IN)
+        p.mb-4 Los KPI surgieron en la década de 1990 con el modelo Balanced Scorecard, que permitió traducir objetivos estratégicos en indicadores medibles. Desde entonces, los KPI se han consolidado como estándares en la evaluación del desempeño organizacional en diversos sectores. 
+        .row.mb-4.justify-content-center
+          .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0
+            .custom-image-card.d-flex.p-3
+              img.pe-2(src='@/assets/curso/unidad/img-4.svg', style="width: 80px")
+              .d-flex.flex-column
+                p.text-bold.mb-4 Tableau
+                p.px-1.text-small.mb-0.d-flex Visualización de métricas en tiempo real.
+          .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0
+            .custom-image-card.d-flex.p-3
+              img.pe-2(src='@/assets/curso/unidad/img-5.svg', style="width: 80px")
+              .d-flex.flex-column
+                p.text-bold.mb-4 Power BI
+                p.px-1.text-small.mb-0.d-flex Creación de paneles interactivos.
+          .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0
+            .custom-image-card.d-flex.p-3
+              img.pe-2(src='@/assets/curso/unidad/img-6.svg', style="width: 80px")
+              .d-flex.flex-column
+                p.text-bold.mb-4 Excel avanzado
+                p.px-1.text-small.mb-0.d-flex Análisis de datos y generación de gráficos personalizados.
 
-    .row.mb-5
-      .col-12.col-xl-7.col-xxl-8.d-flex.flex-column
-        p.mb-5 La inteligencia de negocios (IN) es un proceso estratégico que combina tecnologías, herramientas y metodologías para transformar datos en información valiosa que facilite la toma de decisiones en las organizaciones. Este enfoque permite analizar datos históricos y actuales para identificar patrones, tendencias y oportunidades, impulsando decisiones informadas y estratégicas. Según Turban et al. (2011), "la inteligencia de negocios es una colección de aplicaciones, tecnologías y procesos que se utilizan para recolectar, almacenar, acceder y analizar datos para ayudar a los usuarios a tomar mejores decisiones empresariales".
-        .d-flex.align-items-start.bg-rosa.p-4.mb-4(data-aos="fade-right")
-          img.me-3(style="width: 90px" src='@/assets/curso/unidad/img-12.svg', alt='Texto que describa la imagen')
-          .d-flex.flex-column
-            p.pe-xl-3.mb-0 La IN está compuesta por diversos elementos clave, como almacenes de datos (data warehouses), sistemas OLAP, minería de datos y dashboards. Estas herramientas facilitan el análisis multidimensional, la identificación de tendencias y la visualización de información estratégica. Además, la IN incorpora indicadores clave de desempeño (KPI) para monitorear el progreso en tiempo real hacia los objetivos empresariales, permitiendo a las empresas reaccionar proactivamente a los cambios del mercado y ajustar sus estrategias en consecuencia.
-      .d-none.d-xl-block.col-xl-5.col-xxl-4.mx-auto.mt-4.mt-xl-0(data-aos="fade-left")
-        img(src='@/assets/curso/unidad/img-13.png', alt='Texto que describa la imagen')  
-    p.mb-5 En los últimos años, la IN ha evolucionado hacia el análisis en tiempo real e integra tecnologías como Big Data y análisis predictivo, lo que permite anticipar cambios y adoptar modelos de negocio ágiles. En este contexto, la IN se ha consolidado como un elemento estratégico esencial para mantener la competitividad y la innovación en el mercado global.
+    p.text-bold.mb-4 Ejemplo aplicado
 
+    p.mb-4 Walmart emplea KPI para monitorear la eficiencia de su cadena de suministro, con indicadores clave como el tiempo de reposición de inventarios y los costos logísticos.
     #t_1_2.titulo-segundo
       div.d-flex
         span.me-3 1.2  
-        h2 Ámbito de aplicación de la Inteligencia de Negocios
+        h2 Tipos de KPI y su aplicación
 
-    p.mb-4 El ámbito de aplicación de la inteligencia de negocios es extenso y abarca diversos sectores, donde su capacidad para transformar datos en información estratégica resulta clave para optimizar procesos y mejorar la toma de decisiones.
 
-    .row.mb-4.justify-content-center.card_hover
-      .col-10.col-md-8.col-lg-6.col-xl-4.col-xxl-3.mb-4.mb-xl-0
-        .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100(data-aos="fade-right")
-          img.mx-auto.mb-4(src='@/assets/curso/unidad/img-14.svg', style="width: 80px")
-          p.text-bold.mb-4.text-center Financiero
-          p.px-1.text-small.mb-0.d-flex.text-center Gestión de riesgos, detección de fraudes, análisis de rentabilidad y tendencias del mercado. Ejemplo: Uso de análisis predictivo para ajustar estrategias de inversión y préstamos en tiempo real. 
-      .col-10.col-md-8.col-lg-6.col-xl-4.col-xxl-3.mb-4.mb-xl-0(data-aos="fade-up")
-        .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
-          img.mx-auto.mb-4(src='@/assets/curso/unidad/img-15.svg', style="width: 80px")
-          p.text-bold.mb-4.text-center Minorista
-          p.px-1.text-small.mb-0.d-flex.text-center Comprensión del comportamiento del cliente, personalización de experiencias de compra, optimización de inventarios y análisis de tendencias de consumo. Ejemplo: Amazon utiliza IN para ofrecer recomendaciones personalizadas. 
-      .col-10.col-md-8.col-lg-6.col-xl-4.col-xxl-3(data-aos="fade-up")
-        .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
-          img.mx-auto.mb-4(src='@/assets/curso/unidad/img-16.svg', style="width: 80px")
-          p.text-bold.mb-4.text-center Salud
-          p.px-1.text-small.mb-0.d-flex.text-center Gestión de datos de pacientes, optimización de recursos hospitalarios, mejora en diagnósticos y tratamientos personalizados. Ejemplo: Monitoreo de patrones de enfermedades y administración eficiente de camas y personal médico.
-      .col-10.col-md-8.col-lg-6.col-xl-4.col-xxl-3(data-aos="fade-left")
-        .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
-          img.mx-auto.mb-4(src='@/assets/curso/unidad/img-17.svg', style="width: 80px")
-          p.text-bold.mb-4.text-center Manufactura
-          p.px-1.text-small.mb-0.d-flex.text-center Optimización de cadenas de suministro, mantenimiento predictivo y mejora de procesos de producción. Ejemplo: Identificación de ineficiencias en líneas de producción para reducir costos y aumentar la calidad.
+    .bg-fondo-3.bg-full-width
+      .px-5.pb-md-3.py-4
 
-    p.mb-5 En conclusión, la inteligencia de negocios es una herramienta indispensable para empresas en todos los sectores, permitiendo una mejor comprensión de los datos y una toma de decisiones más informada. Con la constante evolución tecnológica, su relevancia seguirá aumentando, consolidándose como un pilar de la competitividad y la innovación empresarial.
+        p.mb-4 Los KPI han evolucionado para abarcar tanto métricas financieras como operativas y de cliente, gracias a las innovaciones tecnológicas que permiten su aplicación en tiempo real.
+        
+        .row.mb-4
+          .col-10.col-md-6.col-lg-4.mb-4.mx-auto(data-aos="fade-right")
+            div.custom-image-card.rounded-8px
+              img.mb-4(src='@/assets/curso/unidad/img-7.png', alt='Texto que describa la imagen')
+              div.mb-4
+                p.text-bold.text-center Google Analytics
+                p.text-small.px-4.text-center.pb-2 Monitoreo de KPI digitales, como la tasa de conversión.
+          .col-10.col-md-6.col-lg-4.mb-4.mx-auto(data-aos="fade-up")
+            div.custom-image-card.rounded-8px
+              img.mb-4(src='@/assets/curso/unidad/img-8.png', alt='Texto que describa la imagen')
+              div.mb-4
+                p.text-bold.text-center SAP
+                p.text-small.px-4.text-center.pb-2 Gestión integrada de métricas empresariales.
+          .col-10.col-md-6.col-lg-4.mb-4.mx-auto(data-aos="fade-left")
+            div.custom-image-card.rounded-8px
+              img.mb-4(src='@/assets/curso/unidad/img-9.png', alt='Texto que describa la imagen')
+              div.mb-4
+                p.text-bold.text-center Ejemplo aplicado
+                p.text-small.px-4.text-center.pb-2 Nike utiliza KPI como el ROI publicitario y el engagement en redes sociales para medir la efectividad de sus campañas de marketing.
 
     #t_1_3.titulo-segundo
       div.d-flex
         span.me-3 1.3  
-        h2 Empresas desarrolladoras de inteligencia de negocios
+        h2 Diseño e implementación de KPI
+
+    p.mb-4 El diseño de KPI ha mejorado con la integración de metodologías ágiles, donde las métricas se incorporan en ciclos de mejora continua.
+    .row.mb-4.bg-azul-claro.pt-4
+      .col-10.col-xl-5.mx-auto
+        ol.lista-ol--cuadro
+          li.d-flex(data-aos="fade-up")
+            .lista-ol--cuadro__vineta.bg-naranja
+              span 1
+            p.mb-0 <b>ClickUp.</b> Integración de métricas en la gestión de proyectos.
+          li.d-flex(data-aos="fade-up")
+            .lista-ol--cuadro__vineta.bg-naranja
+              span 2
+            p.mb-0 <b>KPI Library.</b> Biblioteca de indicadores predefinidos.
+          li.d-flex(data-aos="fade-up")
+            .lista-ol--cuadro__vineta.bg-naranja
+              span 3
+            p.mb-0 <b>Ejemplo aplicado.</b> Coca-Cola monitorea su consumo de agua y reducción de emisiones de carbono mediante KPI de sostenibilidad.
+      .col-4.d-none.d-xl-block.mx-auto(data-aos="fade-left")
+        img(src='@/assets/curso/unidad/img-10.png', alt='Texto que describa la imagen')
+
+    h2 Medición de la economía digital
+    p.mb-4 En el entorno digital, los KPI deben cumplir los principios SMART para garantizar su efectividad:
+    .row.mb-3(data-aos="fade-up")
+      .col-4.col-md-2.px-0.ms-auto
+        .bg-naranja.p-4.text-center.rounded-15px(style="position: relative; z-index: 1")
+          span.text-bold Específico
+      .col-7.col-md-6.px-0.me-auto.d-flex
+        .bg-naranja-claro.border-naranja.rounded-15px-right.p-3.my-auto.w-100(style="margin-left: -20px")
+          span.ps-5.px-xl-4.d-flex Define claramente qué medir. 
+    .row.mb-3(data-aos="fade-up")
+      .col-4.col-md-2.px-0.ms-auto
+        .bg-naranja-1.p-4.text-center.rounded-15px(style="position: relative; z-index: 1")
+          span.text-bold Medible
+      .col-7.col-md-6.px-0.me-auto.d-flex
+        .bg-naranja-claro.border-naranja.rounded-15px-right.p-3.my-auto.w-100(style="margin-left: -20px")
+          span.ps-5.px-xl-4.d-flex Permite cuantificar los resultados.
+    .row.mb-3(data-aos="fade-up")
+      .col-4.col-md-2.px-0.ms-auto
+        .bg-morado.p-4.text-center.rounded-15px(style="position: relative; z-index: 1")
+          span.text-bold Alcanzable
+      .col-7.col-md-6.px-0.me-auto.d-flex
+        .bg-morado-claro.border-morado.rounded-15px-right.p-3.my-auto.w-100(style="margin-left: -20px")
+          span.ps-5.px-xl-4.d-flex Factible con los recursos disponibles.
+    .row.mb-3(data-aos="fade-up")
+      .col-4.col-md-2.px-0.ms-auto
+        .bg-morado-1.p-4.text-center.rounded-15px(style="position: relative; z-index: 1")
+          span.text-bold Relevante
+      .col-7.col-md-6.px-0.me-auto.d-flex
+        .bg-morado-claro.border-morado.rounded-15px-right.p-3.my-auto.w-100(style="margin-left: -20px")
+          span.ps-5.px-xl-4.d-flex Alineado con los objetivos estratégicos.
+    .row.mb-3(data-aos="fade-up")
+      .col-4.col-md-2.px-0.ms-auto
+        .bg-azul-1.p-4.text-center.rounded-15px(style="position: relative; z-index: 1")
+          span.text-bold Temporal
+      .col-7.col-md-6.px-0.me-auto.d-flex
+        .bg-azul.border-azul.rounded-15px-right.p-3.my-auto.w-100(style="margin-left: -20px")
+          span.ps-5.px-xl-4.d-flex Asociado a un marco temporal definido.
+
+    h2 Tipos de indicadores en el entorno digital
+    p.mb-4  El auge de la inteligencia artificial (IA) y el aprendizaje automático ha diversificado los indicadores digitales, permitiendo analizar el comportamiento de los usuarios y el impacto de las estrategias digitales.
+
+    .bg-fondo-4.bg-full-width
+     .px-5.pb-md-3.py-4
+
+        .row.mb-4
+          .col-4.d-none.d-xl-block(data-aos="fade-left")
+            img(src='@/assets/curso/unidad/img-12.png', alt='Texto que describa la imagen')
+          .col-10.col-xl-8.mx-auto(data-aos="fade-right")
+              SlyderF(columnas="col-12 col-lg-6 py-4 px-3")
+                .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
+                  img.mx-auto.mb-4(src='@/assets/curso/unidad/img-13.svg', style="width: 80px")
+                  p.text-bold.mb-4.text-center Alcance
+                  p.px-1.text-small.mb-0.d-flex.text-center Usuarios expuestos a una publicación. 
+                .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
+                  img.mx-auto.mb-4(src='@/assets/curso/unidad/img-14.svg', style="width: 80px")
+                  p.text-bold.mb-4.text-center Conversiones
+                  p.px-1.text-small.mb-0.d-flex.text-center Cumplimiento de objetivos definidos en Google Analytics. 
+                .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
+                  img.mx-auto.mb-4(src='@/assets/curso/unidad/img-15.svg', style="width: 80px")
+                  p.text-bold.mb-4.text-center Engagement
+                  p.px-1.text-small.mb-0.d-flex.text-center Interacción con contenidos (likes, comentarios, etc.). 
+                .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
+                  img.mx-auto.mb-4(src='@/assets/curso/unidad/img-16.svg', style="width: 80px")
+                  p.text-bold.mb-4.text-center Tasa de rebote
+                  p.px-1.text-small.mb-0.d-flex.text-center Usuarios que abandonan el sitio sin interacción adicional.
+                .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
+                  img.mx-auto.mb-4(src='@/assets/curso/unidad/img-17.svg', style="width: 80px")
+                  p.text-bold.mb-4.text-center Leads
+                  p.px-1.text-small.mb-0.d-flex.text-center Datos recopilados de clientes potenciales. 
+                .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
+                  img.mx-auto.mb-4(src='@/assets/curso/unidad/img-18.svg', style="width: 80px")
+                  p.text-bold.mb-4.text-center Tiempo de visualización
+                  p.px-1.text-small.mb-0.d-flex.text-center Duración promedio de consumo de contenido audiovisual.
+
+        p.text-bold.mb-4 Objetivos principales de un plan de redes sociales basado en KPI son: 
+        .row
+          .col-6.col-md-4.col-lg-3.col-xl-2.mb-3
+            .bg-naranja.p-4.text-center.rounded-15px(style="position: relative; z-index: 1")
+              span.text-bold Informar
+            .d-flex.text-center.justify-content-center
+              p.text-center.mb-0(style="line-height: 7px") . <br>. <br>.
+            .bg-naranja.p-4.text-center.rounded-15px(style="position: relative; z-index: 1")
+              span Exponer productos y servicios a clientes potenciales.
+          .col-6.col-md-4.col-lg-3.col-xl-2.mb-3
+            .bg-amarillo.p-4.text-center.rounded-15px(style="position: relative; z-index: 1")
+              span.text-bold Visibilidad y branding
+            .d-flex.text-center.justify-content-center
+              p.text-center.mb-0(style="line-height: 7px") . <br>. <br>.
+            .bg-amarillo.p-4.text-center.rounded-15px(style="position: relative; z-index: 1")
+              span Posicionar la marca y construir reputación.
+          .col-6.col-md-4.col-lg-3.col-xl-2.mb-3
+            .bg-morado.p-4.text-center.rounded-15px(style="position: relative; z-index: 1")
+              span.text-bold Aumentar tráfico web
+            .d-flex.text-center.justify-content-center
+              p.text-center.mb-0(style="line-height: 7px") . <br>. <br>.
+            .bg-morado.p-4.text-center.rounded-15px(style="position: relative; z-index: 1")
+              span Atraer usuarios relevantes para generar conversiones.
+          .col-6.col-md-4.col-lg-3.col-xl-2.mb-3
+            .bg-rosa.p-4.text-center.rounded-15px(style="position: relative; z-index: 1")
+              span.text-bold Generar leads
+            .d-flex.text-center.justify-content-center
+              p.text-center.mb-0(style="line-height: 7px") . <br>. <br>.
+            .bg-rosa.p-4.text-center.rounded-15px(style="position: relative; z-index: 1")
+              span Recopilar datos de posibles clientes.
+          .col-6.col-md-4.col-lg-3.col-xl-2.mb-3
+            .bg-azul-1.p-4.text-center.rounded-15px(style="position: relative; z-index: 1")
+              span.text-bold Fomentar la interacción
+            .d-flex.text-center.justify-content-center
+              p.text-center.mb-0(style="line-height: 7px") . <br>. <br>.
+            .bg-azul-1.p-4.text-center.rounded-15px(style="position: relative; z-index: 1")
+              span Crear conexiones emocionales para fidelizar.
+          .col-6.col-md-4.col-lg-3.col-xl-2.mb-3
+            .bg-azul.p-4.text-center.rounded-15px(style="position: relative; z-index: 1")
+              span.text-bold Crear comunidad
+            .d-flex.text-center.justify-content-center
+              p.text-center.mb-0(style="line-height: 7px") . <br>. <br>.
+            .bg-azul.p-4.text-center.rounded-15px(style="position: relative; z-index: 1")
+              span Establecer un grupo leal y activo que interactúe con la marca.
+
+    h2 Impacto de los KPI en el entorno digital
+    p.mb-4 Los KPI son herramientas clave no solo para evaluar el éxito de las estrategias, sino también para optimizar recursos y reducir costos. Empresas como Amazon emplean KPI para medir la conversión de visitas en ventas y el tiempo promedio de entrega, asegurando una experiencia óptima para el cliente.
+
+    p.text-bold Herramientas destacadas para análisis y toma de decisiones:
+
+    .row.bg-azul-claro.pt-4
+      .col-10.col-xl-5.mx-auto
+        ol.lista-ol--cuadro
+          li.d-flex(data-aos="fade-up")
+            .lista-ol--cuadro__vineta.bg-naranja
+              span 1
+            p.mb-0 <b>Google Analytics.</b> Análisis detallado de indicadores digitales. 
+          li.d-flex(data-aos="fade-up")
+            .lista-ol--cuadro__vineta.bg-naranja
+              span 2
+            p.mb-0 <b>Power BI.</b> Visualización de datos y generación de informes estratégicos.
+      .col-4.d-none.d-xl-block.mx-auto(data-aos="fade-left")
+        img(src='@/assets/curso/unidad/img-19.png', alt='Texto que describa la imagen')
 
     .row.mb-5
-      .col-12.col-xl-7.col-xxl-8.d-flex.flex-column
-        .d-flex.align-items-start.bg-amarillo.p-4.py-xl-5.h-100(data-aos="fade-right")
-          img.me-3(style="width: 90px" src='@/assets/curso/unidad/img-18.svg', alt='Texto que describa la imagen')
-          .d-flex.flex-column
-            p.pe-xl-3.mb-0(data-aos="fade-up") Las empresas desarrolladoras de inteligencia de negocios (IN) desempeñan un papel crucial al ofrecer herramientas que transforman los datos en información estratégica. Estas compañías han desarrollado plataformas que permiten a las organizaciones integrar, analizar y visualizar datos para tomar decisiones informadas. A nivel global, gigantes como Microsoft, IBM, SAP y Oracle lideran este mercado, mientras que en Colombia empresas como BI Excellence e Hiperbótica destacan con soluciones adaptadas al contexto local. Estas compañías ofrecen herramientas con diversas funcionalidades y costos, lo que las hace accesibles tanto para grandes corporaciones como para pequeñas y medianas empresas (pymes).
-      .d-none.d-xl-block.col-xl-5.col-xxl-4.mx-auto.mt-4.mt-xl-0(data-aos="fade-left")
-        img.h-100(src='@/assets/curso/unidad/img-19.png', alt='Texto que describa la imagen')  
-
-    .row.mb-4
-      .col-4.d-none.d-xl-block(data-aos="fade-right")
-        img.h-100(src='@/assets/curso/unidad/img-20.png', alt='Texto que describa la imagen')
-      .col-12.col-xl-8(data-aos="fade-left")
-        lineaTiempoD.large
-          p(numero="1" titulo="Integración con IA y ML") Ofrece Power BI, una herramienta que permite visualizar datos de forma interactiva e integrarse con otras aplicaciones como Excel y SharePoint. Su accesibilidad, que incluye una versión gratuita y planes premium, democratiza el acceso a la información dentro de las empresas, mejorando la colaboración y la toma de decisiones.
-          p(numero="2" titulo="IBM") Desarrolla IBM Cognos, una plataforma de análisis avanzado y reportes personalizados. Destaca en áreas como el análisis predictivo, ayudando a empresas en sectores como banca y salud a anticipar cambios de mercado y gestionar riesgos. Sus costos están orientados a grandes empresas que buscan capacidades analíticas robustas. 
-          p(numero="3" titulo="BI Excellence") Compañía colombiana enfocada en maximizar el valor de los datos mediante herramientas accesibles y servicios de consultoría. Su impacto es notable en sectores como comercio minorista y manufactura, ayudando a optimizar inventarios y reducir costos operativos con soluciones adaptadas al mercado local.
-          p(numero="4" titulo="Hiperbótica") Empresa colombiana especializada en soluciones personalizadas de IN y Big Data  para pymes. Ofrece servicios escalables a precios competitivos, permitiendo a empresas más pequeñas acceder a herramientas avanzadas para optimizar operaciones e interpretar datos de clientes.
-    .row.mb-4
-      .d-flex.align-items-center(data-aos="fade-up")
-        div.d-flex.align-items-center.bg-gris.px-3.py-4
-          img.me-4(style="width: 90px" src='@/assets/curso/unidad/img-21.svg', alt='Texto que describa la imagen')
-          p.pe-xl-5.mb-0 En conclusión, tanto los líderes globales como las empresas locales ofrecen soluciones que permiten a las organizaciones de distintos tamaños mejorar su competitividad y adaptarse a un entorno cambiante. Aunque los costos varían, los beneficios en eficiencia operativa, reducción de costos y mejor toma de decisiones hacen que la inversión en IN sea una decisión estratégica cada vez más relevante.
+      .d-flex.align-items-center.px-0
+        div.d-flex.align-items-center.bg-rosa.px-3.py-4
+          img.me-4(style="width: 90px" src='@/assets/curso/unidad/img-20.svg', alt='Texto que describa la imagen')
+          p.pe-xl-5.mb-0 La implementación adecuada de KPI permite a las organizaciones mejorar continuamente, identificar oportunidades y fortalecer su competitividad en mercados dinámicos.
 
     .bg-full-width.border-top-9-azul
       .px-4.px-md-5.pt-5.pb-0
@@ -131,14 +246,15 @@
         .row
           .col-12.col-md-6.col-lg-8
             p.d-flex.my-4
-              img.me-3.mb-auto.mt-2(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
-              a.text-small.mt-1(target="_blank", href="https://www.youtube.com/watch?v=09Knu34bYdw") Universidad de Deusto / Deustuko Unibertsitatea. 2015 Conceptos básicos del Business Intelligence.
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/270603") Gómez-Zorrilla, J. & Sánchez Piña, D. (2022). Guía práctica de analítica digital: ROI, KPI y Métricas. LID Editorial España.
             p.d-flex.my-4
-              img.me-3.mb-auto.mt-2(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a.text-small.mt-1(target="_blank", href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/114035 ") Curto Díaz, J. & Conesa Caralt, J. (Il.). (2015). ¿Cómo crear un data warehouse?: ( ed.). Editorial UOC.
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=glS48WoLxis") Gestión del pipeline de ventas [Vídeo]
           .col-12.col-md-6.col-lg-3
             figure
-              img(src='@/assets/componentes/material-complementario.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/componentes/material-complementario.svg', alt='Imagen de material complementario')
+
 
 </template>
 

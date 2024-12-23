@@ -16,8 +16,8 @@ export default {
         imagen: require('@/assets/curso/banner-principal-decorativo-2.svg'),
       },
     ],
-    numeroUnidad: '1',
-    tituloUnidad: 'Explorando la inteligencia de negocios',
+    numeroUnidad: '3',
+    tituloUnidad: 'Toma de decisiones basada en Inteligencia de Negocios',
   },
   menuPrincipal: {
     menu: [
@@ -31,25 +31,25 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Concepto y evolución de la inteligencia de negocios ',
+        titulo: 'KPI (Key Performance Indicators) y métricas de negocio ',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Fundamentos de la Inteligencia de Negocios (IN)',
+            titulo: 'Antecedentes y trazabilidad histórica',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Ámbito de aplicación de la Inteligencia de Negocios',
+            titulo: 'Tipos de KPI y su aplicación',
             hash: 't_1_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo: 'Empresas desarrolladoras de inteligencia de negocios',
+            titulo: 'Diseño e implementación de KPI',
             hash: 't_1_3',
           },
         ],
@@ -58,47 +58,18 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Unidad',
+        titulo: 'Herramientas de soporte a la toma de decisiones',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo:
-              'Función de la bodega de datos y el web scraping en inteligencia de negocios',
-            hash: 't_2_1',
-          },
-        ],
+        subMenu: [],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Ciclo de vida de un sistema de inteligencia de negocios',
+        titulo:
+          'Estudios de caso: Aplicación de la BI en diferentes industrias',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo:
-              'Fase de planificación y definición de requisitos en un sistema de IN',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo:
-              'Desarrollo e implementación del sistema de inteligencia de negocios (IN)',
-            hash: 't_3_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.3',
-            titulo:
-              'Mantenimiento y evolución del sistema de inteligencia de negocios (IN)',
-            hash: 't_3_3',
-          },
-        ],
+        subMenu: [],
       },
       {
         nombreRuta: 'sintesis',
@@ -138,118 +109,160 @@ export default {
   referencias: [
     {
       referencia:
-        'IBM. (s.f.). Infraestructura de TI, Libere y aproveche el poder de su infraestructura de TI.',
-      link: 'https://www.ibm.com/co-es/it-infrastructure',
+        'Davenport, T. H., & Harris, J. G. (2007). Competing on Analytics: The New Science of Winning.',
+      link: '',
     },
     {
-      referencia: 'IBM. (s.f.). Business Intelligence.',
-      link: 'https://www.ibm.com/mx-es/topics/business-intelligence',
+      referencia:
+        'Eckerson, W. W. (2010). Performance Dashboards: Measuring, Monitoring, and Managing Your Business.',
+      link: '',
     },
     {
-      referencia: 'TIC Portal. (s.f.). Inteligencia de negocio (BI).',
-      link: 'https://www.ticportal.es/glosario-tic/inteligencia-negocio-bi',
+      referencia:
+        'Kaplan, R., & Norton, D. (1996). The Balanced Scorecard: Translating Strategy into Action.',
+      link: '',
+    },
+    {
+      referencia:
+        'Marr, B. (2015). Key Performance Indicators: The 75 Measures Every Manager Needs to Know.',
+      link: '',
+    },
+    {
+      referencia: 'Miller, T. (2013). Data-Driven Performance.',
+      link: '',
+    },
+    {
+      referencia:
+        'Parmenter, D. (2015). Key Performance Indicators: Developing, Implementing, and Using Winning KPIs.',
+      link: '',
+    },
+    {
+      referencia:
+        'Power, D. J. (2002). Decision Support Systems: Concepts and Resources.',
+      link: '',
+    },
+    {
+      referencia:
+        'Simon, H. A. (1977). The New Science of Management Decision.',
+      link: '',
+    },
+    {
+      referencia: 'Smith, R. (2010). Business Metrics: The Key to Success.',
+      link: '',
     },
   ],
   glosario: [
     {
-      termino: 'BI (Business Intelligence)',
+      termino: 'Alcance',
       significado:
-        'Conjunto de tecnologías y procesos que convierten datos en información útil para la toma de decisiones',
+        'Número de usuarios que han visto en su pantalla la publicación de un perfil social media.',
     },
     {
-      termino: 'Big Data',
+      termino: 'Attainable (alcanzable)',
       significado:
-        'Conjunto de datos de gran volumen, velocidad y variedad, que requiere tecnologías avanzadas para su análisis',
+        'No tiene sentido elegir indicadores que sean imposibles de conseguir con los recursos asignados.',
     },
     {
-      termino: 'Cuadro de mando (Dashboard)',
+      termino: 'Conversiones',
       significado:
-        'Herramienta de visualización de datos que muestra indicadores clave de rendimiento en tiempo real',
+        'Acción de lograr un objetivo definido previamente en Google Analitycs.',
     },
     {
-      termino: 'Data Lake',
+      termino: 'Duración media',
       significado:
-        'Repositorio que almacena grandes volúmenes de datos en su forma original, estructurada y no estructurada',
+        'Tiempo promedio de un usuario visitando una web o visualizando un vídeo.',
     },
     {
-      termino: 'Data Mart',
+      termino: 'Engagement',
       significado:
-        'Subconjunto de un data warehouse que se centra en un área específica de una organización',
+        'Porcentaje de interacción de los usuarios con los contenidos publicados (vídeos, links, imágenes…). En redes sociales, el hecho de lograr el compromiso con nuestra comunidad de usuarios.',
     },
     {
-      termino: 'Data Mining (Minería de Datos)',
+      termino: 'Fan o seguidor',
       significado:
-        'Proceso de analizar grandes conjuntos de datos para descubrir patrones y relaciones',
+        'Usuario de las redes sociales amante de una marca, empresa u otro usuario motivado por el interés que le despierta los contenidos que comparte.',
     },
     {
-      termino: 'Data Warehouse (Almacén de Datos)',
+      termino: 'Frecuencia',
       significado:
-        'Repositorio centralizado de datos consolidados de distintas fuentes para análisis y reportes',
+        'Número de veces que un usuario es impactado por una publicación. Se calcula dividiendo el número de impresiones por el alcance.',
     },
     {
-      termino: 'Dimensión',
+      termino: 'Impresiones',
       significado:
-        'Categoría utilizada en un data warehouse para organizar datos, como tiempo, geografía o producto',
+        'Número de veces que se muestra una publicación de la página, emanando o no un clic.',
     },
     {
-      termino: 'ETL (Extract, Transform, Load)',
+      termino: 'Interacción',
       significado:
-        'Proceso de extraer, transformar y cargar datos en un almacén de datos',
+        'Acción que realiza un usuario como reacción al contenido observado siendo los likes, comentarios, clics, compartir, visualización de storys.',
     },
     {
-      termino: 'Indicador clave de desempeño (KPI)',
+      termino: 'KPI',
       significado:
-        'Métrica que mide el rendimiento de una actividad o proceso específico en una organización',
+        'Key Performance Indicator o indicador clave de desempeño o indicadores de gestión.',
     },
     {
-      termino: 'Informes (Reports)',
+      termino: 'Leads',
       significado:
-        'Documentos que presentan datos procesados y análisis de manera organizada para toma de decisiones',
+        'Oportunidad de recopilar datos de contacto de un potencial cliente.',
     },
     {
-      termino: 'IoT (Internet of Things)',
+      termino: 'Measurable (medible)',
       significado:
-        'Tecnología que conecta dispositivos físicos a internet para recopilar y compartir datos en tiempo real',
+        'Permite cuantificar las medidas y los beneficios que se esperan.',
     },
     {
-      termino: 'Machine learning (Aprendizaje Automático)',
+      termino: 'Mención',
       significado:
-        'Técnica de IA que permite a los sistemas aprender y mejorar sin programación explícita',
+        'Acción en la que otro usuario cita o referencia a otro usuario.',
     },
     {
-      termino: 'Metadatos',
+      termino: 'Relevant (pertinente)',
       significado:
-        'Datos que describen otros datos, como su origen, formato y características',
+        'Dependiendo de los objetivos que se busquen será mejor una métrica u otra.',
     },
     {
-      termino: 'OLAP (Online Analytical Processing)',
+      termino: 'Sesiones web',
       significado:
-        'Tecnología que permite el análisis rápido y multidimensional de grandes volúmenes de datos',
+        'Es el conjunto de acciones de un usuario utilizando un navegador en la web en un tiempo determinado.',
     },
     {
-      termino: 'Panel de control (Control Panel)',
-      significado:
-        'Interfaz que permite supervisar y gestionar datos en una plataforma de BI',
+      termino: 'Specific (específico)',
+      significado: 'Identifica qué, dónde, cómo y cuándo se mide.',
     },
     {
-      termino: 'Predicción (Forecasting)',
+      termino: 'Tasa de Rebote',
       significado:
-        'Proceso de estimar el comportamiento futuro basado en datos históricos y tendencias',
+        'Cuando envías un contenido, ya sea por email o el propio contenido que tienes publicado en tu sitio web, existe una parte de usuarios que decidirán dejar tu sitio y pasarán a ver otro contenido. Esto se debe por falta de interés en el contenido o por no encontrar lo que buscaba.',
     },
     {
-      termino: 'SQL (Structured Query Language)',
+      termino: 'Tiempo Visualización Medio',
       significado:
-        'Lenguaje de programación utilizado para gestionar y manipular bases de datos relacionales',
+        'Promedio de tiempo que están los usuarios consultando un contenido.',
     },
     {
-      termino: 'Toma de decisiones basada en datos',
+      termino: 'Time-bound (limitado en el tiempo)',
       significado:
-        'Proceso de utilizar datos y análisis en lugar de intuición para tomar decisiones',
+        'Un indicador de rendimiento clave debe estar sujeto a un periodo temporal preciso.',
     },
     {
-      termino: 'Visualización de datos',
+      termino: 'Usuarios únicos',
       significado:
-        'Técnica que convierte datos en gráficos y diagramas para facilitar su comprensión e interpretación',
+        'Número de visitantes distintos se acercan a nuestra página web.',
+    },
+    {
+      termino: 'Ventas',
+      significado:
+        'Enfocado al e-commerce (B2C) o acción de los usuarios en la compra de un servicio o producto en un sitio web o plataforma social.',
+    },
+    {
+      termino: 'Visitas web',
+      significado: 'Número de visitas que una web ha recibido.',
+    },
+    {
+      termino: 'Visualizaciones',
+      significado: 'Número de veces que un contenido audiovisual es visto.',
     },
   ],
   complementario: [
