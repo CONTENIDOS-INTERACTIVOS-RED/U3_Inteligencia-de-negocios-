@@ -158,7 +158,7 @@ export default {
         'Número de usuarios que han visto en su pantalla la publicación de un perfil social media.',
     },
     {
-      termino: 'Attainable (alcanzable)',
+      termino: '<i>Attainable</i> (alcanzable)',
       significado:
         'No tiene sentido elegir indicadores que sean imposibles de conseguir con los recursos asignados.',
     },
@@ -173,7 +173,7 @@ export default {
         'Tiempo promedio de un usuario visitando una web o visualizando un vídeo.',
     },
     {
-      termino: 'Engagement',
+      termino: '<i>Engagement</i>',
       significado:
         'Porcentaje de interacción de los usuarios con los contenidos publicados (vídeos, links, imágenes…). En redes sociales, el hecho de lograr el compromiso con nuestra comunidad de usuarios.',
     },
@@ -203,12 +203,12 @@ export default {
         'Key Performance Indicator o indicador clave de desempeño o indicadores de gestión.',
     },
     {
-      termino: 'Leads',
+      termino: '<i>Leads</i>',
       significado:
         'Oportunidad de recopilar datos de contacto de un potencial cliente.',
     },
     {
-      termino: 'Measurable (medible)',
+      termino: '<i>Measurable</i> (medible)',
       significado:
         'Permite cuantificar las medidas y los beneficios que se esperan.',
     },
@@ -218,7 +218,7 @@ export default {
         'Acción en la que otro usuario cita o referencia a otro usuario.',
     },
     {
-      termino: 'Relevant (pertinente)',
+      termino: '<i>Relevant</i> (pertinente)',
       significado:
         'Dependiendo de los objetivos que se busquen será mejor una métrica u otra.',
     },
@@ -228,7 +228,7 @@ export default {
         'Es el conjunto de acciones de un usuario utilizando un navegador en la web en un tiempo determinado.',
     },
     {
-      termino: 'Specific (específico)',
+      termino: '<i>Specific</i> (específico)',
       significado: 'Identifica qué, dónde, cómo y cuándo se mide.',
     },
     {
@@ -242,7 +242,7 @@ export default {
         'Promedio de tiempo que están los usuarios consultando un contenido.',
     },
     {
-      termino: 'Time-bound (limitado en el tiempo)',
+      termino: '<i>Time-bound</i> (limitado en el tiempo)',
       significado:
         'Un indicador de rendimiento clave debe estar sujeto a un periodo temporal preciso.',
     },

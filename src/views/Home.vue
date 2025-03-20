@@ -22,7 +22,7 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 Los KPI y las métricas de negocio son herramientas clave para medir el desempeño organizacional, evaluando el progreso hacia objetivos estratégicos. Surgieron con el modelo Balanced Scorecard y han evolucionado hacia métricas financieras, operativas y digitales, integrando principios SMART. Herramientas como Google Analytics y Power BI facilitan el análisis en tiempo real, mientras tecnologías como IA, data pipelines, ETL y OLAP optimizan procesos y decisiones estratégicas. Además, el blockchain mejora la seguridad y trazabilidad de datos en sectores como salud y logística, fortaleciendo la competitividad en entornos dinámicos y digitales.
+              p.descripcion.mb-4 Los KPI y las métricas de negocio son herramientas clave para medir el desempeño organizacional, evaluando el progreso hacia objetivos estratégicos. Surgieron con el modelo <i>Balanced Scorecard</i> y han evolucionado hacia métricas financieras, operativas y digitales, integrando principios SMART. Herramientas como Google Analytics y Power BI facilitan el análisis en tiempo real, mientras tecnologías como IA, data pipelines, ETL y OLAP optimizan procesos y decisiones estratégicas. Además, el <i>blockchain</i> mejora la seguridad y trazabilidad de datos en sectores como salud y logística, fortaleciendo la competitividad en entornos dinámicos y digitales.
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")

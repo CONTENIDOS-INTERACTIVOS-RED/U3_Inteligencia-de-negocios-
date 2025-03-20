@@ -5,11 +5,11 @@
 
     .row.mb-4.mx-0
       .col-12.col-xl-8.d-flex.align-items-center.bg-amarillo.p-4(data-aos="fade-right")
-        p.mb-0(data-aos="fade-up") Los KPI y las métricas de negocio son herramientas esenciales para medir el desempeño organizacional. Desde su conceptualización, han sido fundamentales en los sistemas de gestión empresarial. Kaplan y Norton (1996), con su modelo Balanced Scorecard, destacaron la importancia de estos indicadores para evaluar el progreso hacia los objetivos estratégicos.
+        p.mb-0(data-aos="fade-up") Los KPI y las métricas de negocio son herramientas esenciales para medir el desempeño organizacional. Desde su conceptualización, han sido fundamentales en los sistemas de gestión empresarial. Kaplan y Norton (1996), con su modelo <i>Balanced Scorecard</i>, destacaron la importancia de estos indicadores para evaluar el progreso hacia los objetivos estratégicos.
       .d-none.d-xl-block.col-4.px-0(data-aos="fade-left")
         img.h-100(src='@/assets/curso/unidad/img-3.png', alt='Texto que describa la imagen')
 
-    .bg-fondo-2.bg-full-width
+    .bg-fondo-2.bg-full-width.mb-4
       .px-5.pb-md-3.py-4
 
         #t_1_1.titulo-segundo

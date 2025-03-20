@@ -18,7 +18,7 @@
                 .d-flex.align-items-center
                   div.d-flex.align-items-center.bg-azul-1.px-3.py-4
                     img.me-4(style="width: 90px" src='@/assets/curso/unidad/img-22.svg', alt='Texto que describa la imagen')
-                    p.pe-xl-5.mb-0 IBM Watson Analytics es una plataforma que combina análisis predictivo y visualización avanzada mediante inteligencia artificial. Destaca por su capacidad para procesar grandes volúmenes de datos y proporcionar insights rápidos y claros a través de su interfaz de lenguaje natural
+                    p.pe-xl-5.mb-0 IBM Watson Analytics es una plataforma que combina análisis predictivo y visualización avanzada mediante inteligencia artificial. Destaca por su capacidad para procesar grandes volúmenes de datos y proporcionar insights rápidos y claros a través de su interfaz de lenguaje natural.
               p.mb-4 Aplicaciones en el sector salud:
 
           .row.mb-4.justify-content-center.card_hover(data-aos="zoom-in-up")
@@ -58,8 +58,8 @@
           p(numero="3" titulo="Control de ciberseguridad") Garantizar la protección de datos sensibles.  
           p(numero="4" titulo="Medición con KPI") Evaluar el desempeño en cada etapa del pipeline.  
 
-    h2 El Data Pipeline de ventas como motor del marketing digital
-    p.mb-4 El pipeline digital automatiza el seguimiento de prospectos mediante herramientas como CRM, proporcionando datos clave para personalizar campañas publicitarias. Por ejemplo, Facebook Ads integra anuncios segmentados basados en la etapa del cliente dentro del pipeline.
+    h2 Relación con el marketing digital
+    p.mb-4 El pipeline digital automatiza el seguimiento de prospectos mediante herramientas como CRM, proporcionando datos clave para personalizar campañas publicitarias. Por ejemplo, Facebook Ads integra anuncios segmentados basados en la etapa del cliente dentro del <i>pipeline</i>.
 
     p.mb-4.text-bold Las etapas del Data  Pipeline de ventas son:
 
@@ -93,8 +93,8 @@
             div.custom-image-card.rounded-8px
               img.mb-4(src='@/assets/curso/unidad/img-29.png', alt='Texto que describa la imagen')
               div.mb-4
-                p.text-bold.text-center TOFU (Top of the Funnel)
-                p.text-small.px-4.text-center.pb-2 .Atracción de prospectos mediante blogs o redes sociales.
+                p.text-bold.text-center TOFU (<i>Top of the Funnel</i>)
+                p.text-small.px-4.text-center.pb-2 Atracción de prospectos mediante blogs o redes sociales.
           .col-10.col-md-6.col-lg-4.mb-4.mx-auto(data-aos="fade-right")
             div.custom-image-card.rounded-8px
               img.mb-4(src='@/assets/curso/unidad/img-30.png', alt='Texto que describa la imagen')
@@ -108,7 +108,7 @@
                 p.text-bold.text-center BOFU (Bottom of the Funnel) 
                 p.text-small.px-4.text-center.pb-2 Decisión de compra mediante descuentos o pruebas gratuitas.
 
-    h2 ETL (Extract, Transform, Load)
+    h2 ETL (<i>Extract, Transform, Load</i>)
     p.mb-4 El proceso ETL permite integrar datos desde múltiples fuentes, transformarlos en formatos estándar y cargarlos en un almacén de datos para su análisis.
 
     .row.mb-4.bg-azul-claro.pt-4
@@ -132,7 +132,7 @@
     .bg-fondo-1.bg-full-width.mb-4
       .px-5.pb-md-3.py-4   
 
-        h2  OLAP (Online Analytical Processing)
+        h2  OLAP (<i>Online Analytical Processing</i>)
         p.mb-4 OLAP permite realizar análisis multidimensionales de datos a través de cubos OLAP, facilitando la identificación de patrones y tendencias en grandes volúmenes de información.
         .row.mb-4.justify-content-center
           .col-10.col-md-8.col-lg-6.mb-4.mb-xl-0

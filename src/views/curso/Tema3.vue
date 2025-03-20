@@ -93,9 +93,9 @@
             img(src='@/assets/curso/unidad/img-43.png', alt='Texto que describa la imagen')
           .col-10.col-md-8.col-lg-6.mx-auto.d-flex(data-aos="fade-left")
             TarjetaAudio.color-primario.bg-white.my-auto(
-              texto="Proceso de descarga de MySQL Server Community y MySQL Workbench"
+              texto="Ciberseguridad en la inteligencia de negocios"
               tiempo
-              :audio="require('../../assets/componentes/audios/audio-ej.mp3')"
+              :audio="require('../../assets/componentes/audios/Ciberseguridad_mezcla.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
 
@@ -105,7 +105,7 @@
         .custom-image-card.d-flex.p-3
           img.pe-2(src='@/assets/curso/unidad/img-44.svg', style="width: 80px")
           .d-flex.flex-column
-            p.text-bold.mb-4 Facebook (Cambridge Analytica)
+            p.text-bold.mb-4 Facebook (<i>Cambridge Analytica</i>)
             p.px-1.text-small.mb-0.d-flex Exposición de datos de usuarios por falta de controles adecuados
       .col-10.col-md-8.col-lg-6.mb-4.mb-xl-0
         .custom-image-card.d-flex.p-3
@@ -126,8 +126,8 @@
         .bg-azul-1.p-4.text-center.rounded-15px(style="position: relative; z-index: 1")
           span.text-bold Actualización constante de sistemas BI para evitar vulnerabilidades conocidas.
 
-    h2 Blockchain en la BI
-    p.mb-4 El blockchain garantiza la seguridad y trazabilidad de los datos en la Inteligencia de Negocios, proporcionando confianza y transparencia.
+    h2 <i>Blockchain</i> en la BI
+    p.mb-4 El <i>blockchain</i> garantiza la seguridad y trazabilidad de los datos en la Inteligencia de Negocios, proporcionando confianza y transparencia.
     .row.mb-4
       .col-4.d-none.d-xl-block.mx-auto(data-aos="fade-left")
         img(src='@/assets/curso/unidad/img-46.png', alt='Texto que describa la imagen')
@@ -159,7 +159,10 @@
             figure
               img(src='@/assets/componentes/material-complementario.svg', alt='Imagen de material complementario')
 
-
+    .bg-full-width.border-top.actividad(style='background-color: #ebf1f5; border-top: 5px solid #f5c145 !important')
+      .p-4.p-md-5
+        #Actividad
+          <Actividad :cuestionario='cuestionario'/>
 </template>
 
 <script>
@@ -169,6 +172,126 @@ export default {
   components: {
     BannerInterno,
   },
+  data: () => ({
+    cuestionario: {
+      tema: 'Unidad 3 - Tecnologías de Datos',
+      titulo: 'Ponte a prueba',
+      introduccion:
+        'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+      barajarPreguntas: true,
+      preguntas: [
+        {
+          id: 1,
+          texto: '¿Cuál de los siguientes es un ejemplo de Machine Learning?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Crear un informe manualmente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Un algoritmo que predice ventas futuras.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Diseñar redes Wi-Fi en una empresa.',
+              esCorrecta: false,
+            },
+            { id: 'd', texto: 'Desarrollar sistemas OLAP.', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 2,
+          texto: '¿Qué herramienta ayuda a crear dashboards interactivos?',
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Tableau.', esCorrecta: true },
+            { id: 'b', texto: 'SQL.', esCorrecta: false },
+            { id: 'c', texto: 'Hadoop.', esCorrecta: false },
+            { id: 'd', texto: 'Apache Spark.', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 3,
+          texto: '¿Qué tipo de datos maneja el IoT?',
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Solo datos numéricos.', esCorrecta: false },
+            {
+              id: 'b',
+              texto: 'Datos estructurados y no estructurados.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Datos históricos almacenados.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Exclusivamente datos generados por software.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 4,
+          texto:
+            '¿Qué técnica analiza grandes volúmenes de datos para descubrir patrones ocultos?',
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Data Mining.', esCorrecta: true },
+            { id: 'b', texto: 'ETL.', esCorrecta: false },
+            { id: 'c', texto: 'OLAP.', esCorrecta: false },
+            { id: 'd', texto: 'Inteligencia Artificial.', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 5,
+          texto: '¿Cuál es la función principal de un Data Warehouse?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Ejecutar modelos de inteligencia artificial.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Almacenar grandes volúmenes de datos para análisis.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Diseñar interfaces de usuario.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Monitorear la ciberseguridad.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+      ],
+      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
+      mensaje_final_reprobado:
+        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
+    },
+  }),
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()
